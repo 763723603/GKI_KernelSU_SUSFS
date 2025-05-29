@@ -658,7 +658,7 @@ jobs:
       - name: 上传 AnyKernel3
         uses: actions/upload-artifact@v4
         with:
-          name: AnyKernel3_SukiSU_Dev_${{ env.CONFIG }}
+          name: AnyKernel3_SukiSU_Dev_${{ env.KSU_VERSION }}_${{ env.CONFIG }}
           path: ./AnyKernel3/*
           
       - name: 上传编译资产
