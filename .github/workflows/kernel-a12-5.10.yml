@@ -13,7 +13,7 @@ on:
       kernelsu_variant:
         required: true
         type: string
-        default: 下一页
+        default: Next
       kernelsu_branch:
         required: true
         type: string
