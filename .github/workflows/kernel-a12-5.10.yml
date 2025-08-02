@@ -33,9 +33,9 @@ on:
         default: true
       use_kpm:
         description: '是否开启KPM功能?'
-        required: true
-        type: boolean
-        default: true
+        required: false
+        type: string
+        default: false
   
 jobs:
   build-kernel-a12-5-10-kernelsu-susfs:
