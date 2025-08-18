@@ -43,7 +43,7 @@ on:
       use_kpm:
         description: '是否开启KPM功能?'
         required: false
-        type: string
+        type: boolean
         default: false
       get_manager:
         description: '是否同时获取最新KSU管理器?（实验性功能，报错请关闭）'
